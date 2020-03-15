@@ -123,6 +123,7 @@ cd /var/www/
 mkdir 你的域名
 cd 你的域名
 git clone -b master https://github.com/Anankke/SSPanel-Uim.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
+备份 git clone -b master https://github.com/HyoukaChitandaEru/SSPanel-Uim.git tmp && mv tmp/.git . && rm -rf tmp && git reset --hard
 git config core.filemode false
 wget https://getcomposer.org/installer -O composer.phar
 php composer.phar
